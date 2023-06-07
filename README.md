@@ -36,6 +36,3 @@ https://developer.hashicorp.com/terraform/tutorials/azure-get-started/infrastruc
 
 Details of steps to configure Azure/Terraform
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
-=======
-# azure-terraform-tutorial
->>>>>>> parent of f6deb51 (Azure - Terraform - Documentation)
