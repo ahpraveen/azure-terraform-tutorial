@@ -31,6 +31,7 @@ Terraform commands to use:
 - terraform plan
 - terraform apply (need to manually say yes to approve the changes)
 - terraform apply --auto-approve
+- terraform apply -var "rg_name="mydemorg"
 - terraform show
 - terraform state list
 - terraform destroy
