@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # azure-terraform-tutorial
 
 This repo give a quick overview of using Infrastructure As Code (Iac) tool - terraform to provision resources in Azure cloud.
@@ -35,3 +36,6 @@ https://developer.hashicorp.com/terraform/tutorials/azure-get-started/infrastruc
 
 Details of steps to configure Azure/Terraform
 https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build
+=======
+# azure-terraform-tutorial
+>>>>>>> parent of f6deb51 (Azure - Terraform - Documentation)
