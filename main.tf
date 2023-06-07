@@ -61,9 +61,9 @@ resource "azurerm_virtual_machine" "vm" {
 
   storage_image_reference {
     publisher = "Canonical"
-    offer     = "UbuntuServer"
-    sku       = "20.04-LTS"
-    version   = "latest"
+    offer     = "0001-com-ubuntu-server-focal"
+    sku       = "20_04-lts-gen2"
+    version   = "20.04.202305150"
   }
 
   storage_os_disk {
@@ -76,6 +76,7 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile {
     computer_name  = "hostname"
     admin_username = "testadmin"
+    admin_password = "testAdmin123"
   }
 
   os_profile_linux_config {
