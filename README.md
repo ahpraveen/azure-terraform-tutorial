@@ -6,6 +6,7 @@ Terraform in a null shell, it is a Infrastructure as code tool. It helps you to 
 Terraform requires the configuration file written in Hashicorp Configuration Language (HCL). It is declarative, describe the intended goal rather than the steps to reach goal.
 
 The main.tf is the terraform file that contains configuration to provision infrastructure.
+The variable.tf - contains variables that is referenced in main.tf
 
 Pre-requisites:
 - Azure Subscription
