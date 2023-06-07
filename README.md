@@ -1,6 +1,6 @@
 # azure-terraform-tutorial
 
-This repo give a quick overview of using Infrastructure As Code (Iac) tool - terraform to provision resources in Azure cloud.
+This repo gives a quick overview of using Infrastructure As Code (Iac) tool - terraform to provision resources in Azure cloud.
 
 Terraform in a null shell, it is a Infrastructure as code tool. It helps you to create, change, destroy infrastructure.
 Terraform requires the configuration file written in Hashicorp Configuration Language (HCL). It is declarative, describe the intended goal rather than the steps to reach goal.
