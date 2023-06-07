@@ -1,3 +1,4 @@
+# variabes
 variable "rg_name" {
   default = "my-tf-demo-rg"
 }
