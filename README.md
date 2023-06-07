@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # azure-terraform-tutorial
 
 This repo give a quick overview of using Infrastructure As Code (Iac) tool - terraform to provision resources in Azure cloud.
