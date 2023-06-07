@@ -2,7 +2,11 @@
 
 This repo give a quick overview of using Infrastructure As Code (Iac) tool - terraform to provision resources in Azure cloud.
 
+Terraform in a null shell, it is a Infrastructure as code tool. It helps you to create, change, destroy infrastructure.
+Terraform requires the configuration file written in Hashicorp Configuration Language (HCL). It is declarative, describe the intended goal rather than the steps to reach goal.
+
 The main.tf is the terraform file that contains configuration to provision infrastructure.
+The variable.tf - contains variables that is referenced in main.tf
 
 Pre-requisites:
 - Azure Subscription
@@ -26,8 +30,11 @@ Terraform commands to use:
 - terraform fmt
 - terraform validate
 - terraform plan
-- terraform apply
+- terraform apply (need to manually say yes to approve the changes)
+- terraform apply --auto-approve
+- terraform apply -var "rg_name="mydemorg"
 - terraform show
+- terraform state list
 - terraform destroy
 
 Ref: What is IaC?
