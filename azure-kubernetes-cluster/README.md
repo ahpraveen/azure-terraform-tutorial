@@ -32,11 +32,14 @@ Step 1/ Clone the repo
 
 Step 2/ from the command list go to the repo folder then go to the azure-kubernetes-cluster
 
-Step 3/ enter the command terraform init
+Step 3/ To initialize and install provider plugin 
+    terraform init
 
-Step 4/ terraform plan
+Step 4/ To preview the changes
+    terraform plan
 
-Step 5/ terraform apply
+Step 5/ To apply the changes planned
+    terraform apply
 
 Step 6/ Go to azure portal see the cluster is created or using azure cli
 
@@ -44,4 +47,5 @@ Step 6/ Go to azure portal see the cluster is created or using azure cli
 
     kubectl get nodes
 
-Step 6/ terraform destroy
+Step 7/ Clean up the resources 
+    terraform destroy
