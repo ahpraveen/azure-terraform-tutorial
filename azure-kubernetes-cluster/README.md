@@ -19,7 +19,11 @@ Prerequisites
 - Terraform
 
 The repo contains
+
 Providers.tf holds the necessary plugins & version.
+
 main.tf file has the configuration required to spin up a azure kubernetes cluster.
+
 variable.tf file hold any variable that are used in main.tf
+
 output.tf holds any output values that you would like to view.
